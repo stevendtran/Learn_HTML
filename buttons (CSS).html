@@ -8,13 +8,15 @@ CSS property : CSS value -->
 <!-- background-color = color of the button
 color = color of text
 border = if there is a border on the button
-height = how tall the button is, in pxs
-width = how long the button is, in pxs
+height = how tall the button is, in pxs (NOT A GOOD IDEA (WANT TO BE ADAPTIVE use padding instead))
+width = how long the button is, in pxs (NOT A GOOD IDEA (WANT IT TO BE ADAPTIVE use padding instead))
 border-radius =  the edges of the button
 cursor = how your mouse looks
 margin = space
 font-weight = bold
 font-size = size 
+padding = the pxls around the text so that when the text changes, the text is not spilling out
+vertical-align = alligns things properly
 -->
 
 <!-- .inset_classname to target a specific element -->
@@ -22,20 +24,26 @@ font-size = size
 <!-- :hover is how the button will act when you hover over it 
 opacityis how see through the eleemnt is (between 0 - 1) -->
 <!-- :active is how the button will act when the button is activated-->
-<!-- Transition - makes the opacity change smoothly (seprate it by coma for multiple things)-->
+<!-- Transition - makes the opacity change smoothly (seprate it by coma for multiple things), 
+the color thing under it is a the speed of the transition, allows for smoother transitions-->
 <!-- Box-shadow (horizontal (px), vertical (px), blurr(px), color(rgb or rgba(the opacity of the color)))-->
 <style> 
   .sub-button{
     background-color: rgb(200, 0, 0);
     color: white;
     border: none;
-    height: 36px;
-    width: 105px;
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
     transition: opacity 0.15s;
+    vertical-align: top;
   }
+
   .sub-button:hover{
     opacity: 0.8;
   }
@@ -54,6 +62,11 @@ opacityis how see through the eleemnt is (between 0 - 1) -->
     width: 62px;
     border-radius: 2px;
     cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
     transition: background-color .15s,
       color .15s;
   }
@@ -78,6 +91,7 @@ opacityis how see through the eleemnt is (between 0 - 1) -->
     font-size: 15px;
     cursor: pointer;
     margin-left: 8px;
+    vertical-align: top;
   }
 
   .tweet-button:hover{
@@ -126,7 +140,8 @@ opacityis how see through the eleemnt is (between 0 - 1) -->
     border: none;
     border-radius: 2px;
   }
-</style> -->
+</style> 
+-->
 
 <!-- class allows you to label the buttons -->
 
