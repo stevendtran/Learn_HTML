@@ -1,0 +1,10 @@
+For Images
+    object-fit 
+    object-postion
+
+<input> = search bar
+
+1. block element - Takes up the whole line
+2. inline block element - Only takes up what it needs to
+3. in elements - text elements, appears in a line of text
+Switching from block to inline block : display: ;
