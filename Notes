@@ -8,3 +8,8 @@ For Images
 2. inline block element - Only takes up what it needs to
 3. in elements - text elements, appears in a line of text
 Switching from block to inline block : display: ;
+
+<div> = a box (a block element), can contain any other element inside
+    meant to be containers. Allow us to group things together
+
+Nested layout technique 

@@ -14,16 +14,36 @@
         display: block;
       }
 
-      .video-title {
-        width: 300px;
-      }
-
       .youtuber {
+
+      }
+
+      .video-title {
+        margin-top: 0;
+      }
+
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+
+      .pfp-slot {
+        display: inline-block;
+        width: 50px;
+        vertical-align: top;
+        border-radius: 5px;
         
       }
 
-      .video-stats {
-        
+      .video-info {
+        display: inline-block;
+        width: 200px;
+      }
+
+      .pfp {
+        width: 100%;
       }
     </style>
   </head>
@@ -31,19 +51,46 @@
   <body>
     <input class="searchbar" type="text" placeholder="Search">
 
-    <img class="thumbnails"  src="thumbnails/thumbnail-1.webp">
-    
-    <p class="video-title">
-      Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
+    <div class="video-preview">
+      <div>
+        <img class="thumbnails"  src="thumbnails/thumbnail-1.webp">
+      </div>
+      <div>
+        <div class="pfp-slot">
+          <img class="pfp" src="pfp/channel-1.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="youtuber">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views &#183 6 months ago
+          </p>
+        </div>
+      </div>
+    </div>
 
-    <p class="youtuber">
-      Marques Brownlee
-    </p>
+    <div class="video-preview">
+      <div>
+        <img class="thumbnails"  src="thumbnails/thumbnail-2.webp">
+      </div>
+      <div class="pfp-slot">
+        <img class="pfp" src="pfp/channel-2.jpeg">
+        <p class="video-title">
+          Try Not to Laught Challenge #9
+        </p>
+        <p class="youtuber">
+          Markiplier
+        </p>
+        <p class="video-stats">
+          19M views &#183 4 years ago
+        </p>
+      </div>
 
-    <p class="video-stats">
-      3.4M views &#183 6 months ago
-    </p>
-
+    </div>
+  
   </body>
 </html>
