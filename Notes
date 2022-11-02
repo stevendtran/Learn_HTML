@@ -13,3 +13,10 @@ Switching from block to inline block : display: ;
     meant to be containers. Allow us to group things together
 
 Nested layout technique 
+
+display: inline-block (has a problem with spacing and it is not vertically alligned)
+
+grids maintain allignment
+
+fr means freespace (takes up the remaining amount of space)
+* it also 
