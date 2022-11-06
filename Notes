@@ -20,3 +20,7 @@ grids maintain allignment
 
 fr means freespace (takes up the remaining amount of space)
 * it also 
+
+flexbox acts more like a inline element
+
+max width prevents the objects from being bigger than that
