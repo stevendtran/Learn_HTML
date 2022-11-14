@@ -17,40 +17,88 @@
   <body>
     <div class="header">
       <div class="left-section">
-        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <button class="hamburger-button">
+          <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        </button>
         <img class="youtube-logo" src="icons/youtube-logo.svg">
       </div>
       <div class="middle-section">
         <input class="searchbar" type="text" placeholder="Search">
         <button class="search-button"> 
           <img class="search-icon" src="icons/search.svg">
+          <div class="tool-tip">Search</div>
         </button>
         <button class="voice-search-button"> 
           <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tool-tip">Search with your voice</div>
         </button> 
       </div>
       <div class="right-section">
-        <button class="create-button"> 
-          <img class="create-icon" src="icons/upload.svg">
-        </button>
-        <button class="youtube-apps-button"> 
-          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
-        </button>
+        <div class="create-icon-container">
+          <button class="create-button"> 
+            <img class="create-icon" src="icons/upload.svg">
+            <div class="tool-tip">Create</div>
+          </button>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <button class="youtube-apps-button"> 
+            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+            <div class="tool-tip">YouTube Apps</div>
+          </button>
+        </div>
         <div class="notification-container">
           <button class="notification-button">
             <img class="notification-icon" src="icons/notifications.svg">
+            <div class="tool-tip">Notifications</div>
           </button>
           <div class="notification-count">3</div>
-        </div> 
-        <button class="mychannel-button"> 
-          <img class="current-user-pfp" src="icons/mychannel.jpg">
-        </button>
+        </div>
+        <div class="mychannel-icon-container">
+          <button class="mychannel-button"> 
+            <img class="current-user-pfp" src="icons/mychannel.jpg">
+            <div class="tool-tip">Channel</div>
+          </button>
+        </div>
       </div>
     </div>
 
-    <div class="side-bar">
-      sidebar 
-      <button> </button>
+    <div class="sidebar">
+      <div class="sidebar-link" > 
+        <button> 
+          <img src="icons/home.svg">
+          <div>Home</div>
+        </button>
+      </div>
+      <div class="sidebar-link" > 
+        <button> 
+          <img src="icons/explore.svg">
+          <div>Explore</div>
+        </button>
+      </div>
+      <div class="sidebar-link" > 
+        <button> 
+          <img src="icons/subscriptions.svg">
+          <div>Subscriptions</div>
+        </button>
+      </div>
+      <div class="sidebar-link" > 
+        <button> 
+          <img src="icons/originals.svg">
+          <div>Originals</div>
+        </button>
+      </div>
+      <div class="sidebar-link" > 
+        <button> 
+          <img src="icons/youtube-music.svg">
+          <div>YouTube Music</div>
+        </button>
+      </div>
+      <div class="sidebar-link" > 
+        <button> 
+          <img src="icons/library.svg">
+          <div>Library</div>
+        </button>
+      </div>
     </div>
 
     <div class="video-grid">
